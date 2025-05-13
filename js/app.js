@@ -3,44 +3,33 @@ jQuery(document).foundation();
 
 jQuery(document).ready(function($) {
 
-    var dataPorto = [
+        var dataPorto = [
         {
-            'image':'../images/peacelovedogshouston.png',
-            'url':'https://peacelovedogshouston.com/'
+            'image': [
+                '../images/project1-img1.png',
+                '../images/project1-img2.png',
+                '../images/project1-img3.png'
+            ],
+            'url': 'https://github.com/erisuver/pos-siomay-apps'
         },
         {
-            'image':'../images/centennial.houstonzoo.png',
-            'url':'https://centennial.houstonzoo.org/'
+            'image': [
+                '../images/project2-img1.png',
+                '../images/project2-img2.png',
+                '../images/project2-img3.png'
+            ],
+            'url': 'https://github.com/erisuver/toolshop-apps'
         },
         {
-            'image':'../images/posterhouse.png',
-            'url':'https://posterhouse.org/'
-        },
-        {
-            'image':'../images/daily-joy.png',
-            'url':'https://www.daily-joy.org/'
-        },
-        {
-            'image':'../images/mpc.png',
-            'url':'https://www.mpc.id/'
-        },
-        {
-            'image':'../images/actreport.png',
-            'url':'https://actreport.com/'
-        },
-        {
-            'image':'../images/buffalobayou.png',
-            'url':'https://buffalobayou.org/'
-        },
-        {
-            'image':'../images/einhorn.cornell.png',
-            'url':'https://einhorn.cornell.edu/'
-        },
-        {
-            'image':'../images/socialbulldog.png',
-            'url':'https://socialbulldog.com/'
+            'image': [
+                '../images/project3-img1.png',
+                '../images/project3-img2.png',
+                '../images/project3-img3.png'
+            ],
+            'url': 'https://pasienqu.com/'
         }
-    ]
+        // Tambahkan proyek lainnya di sini
+    ];
 
     $portoContainer = $('#porto-container');
     dataPorto.forEach(e => {
